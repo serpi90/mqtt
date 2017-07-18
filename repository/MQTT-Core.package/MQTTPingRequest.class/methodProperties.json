@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"response" : "SvenVanCaekenberghe 12/6/2016 14:42",
-		"typeTag" : "SvenVanCaekenberghe 12/3/2016 19:56" } }
+		"typeTag" : "SvenVanCaekenberghe 12/3/2016 19:56"
+	},
+	"class" : { }
+}

@@ -1,14 +1,23 @@
 {
-	"class" : {
-		"isAbstract" : "SvenVanCaekenberghe 12/18/2016 14:27" },
 	"instance" : {
-		"clientClass" : "SvenVanCaekenberghe 12/18/2016 14:27",
 		"host" : "SvenVanCaekenberghe 12/18/2016 14:27",
-		"message" : "SvenVanCaekenberghe 12/6/2016 16:12",
-		"setUp" : "SvenVanCaekenberghe 12/18/2016 14:23",
-		"tearDown" : "SvenVanCaekenberghe 12/6/2016 16:02",
-		"testOneQoS0" : "SvenVanCaekenberghe 12/20/2016 15:48",
+		"testSubscribeToTopic" : "JurajKubelka 2/22/2017 23:25",
 		"testOneQoS1" : "SvenVanCaekenberghe 12/20/2016 15:48",
-		"testOneQoS2" : "SvenVanCaekenberghe 12/20/2016 15:48",
+		"tearDown" : "SvenVanCaekenberghe 12/6/2016 16:02",
+		"testUnsubscribeFromTopic" : "JurajKubelka 2/22/2017 23:30",
+		"topic" : "SvenVanCaekenberghe 12/6/2016 16:11",
 		"testPing" : "SvenVanCaekenberghe 12/6/2016 16:02",
-		"topic" : "SvenVanCaekenberghe 12/6/2016 16:11" } }
+		"testSendMessageToTopic" : "JurajKubelka 2/22/2017 23:26",
+		"testReadMessage" : "JurajKubelka 2/22/2017 23:26",
+		"testOneQoS0" : "SvenVanCaekenberghe 12/20/2016 15:48",
+		"testPing2" : "JurajKubelka 2/22/2017 23:22",
+		"timeout" : "JurajKubelka 3/2/2017 00:57",
+		"message" : "SvenVanCaekenberghe 12/6/2016 16:12",
+		"testOneQoS2" : "SvenVanCaekenberghe 12/20/2016 15:48",
+		"clientClass" : "SvenVanCaekenberghe 12/18/2016 14:27",
+		"setUp" : "JurajKubelka 3/2/2017 08:05"
+	},
+	"class" : {
+		"isAbstract" : "SvenVanCaekenberghe 12/18/2016 14:27"
+	}
+}

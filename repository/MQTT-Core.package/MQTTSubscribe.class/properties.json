@@ -1,14 +1,13 @@
 {
-	"category" : "MQTT-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SvenVanCaekenberghe 12/5/2016 15:28",
-	"instvars" : [
-		"topicFiltersAndRequestedQoS" ],
-	"name" : "MQTTSubscribe",
-	"pools" : [
-		 ],
 	"super" : "MQTTIdPacket",
-	"type" : "normal" }
+	"category" : "MQTT-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"topicFiltersAndRequestedQoS"
+	],
+	"name" : "MQTTSubscribe",
+	"type" : "normal"
+}

@@ -1,10 +1,10 @@
 {
-	"category" : "MQTT-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SvenVanCaekenberghe 12/5/2016 13:34",
+	"super" : "MQTTPacket",
+	"category" : "MQTT-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"cleanSession",
 		"willTopic",
@@ -14,9 +14,8 @@
 		"username",
 		"password",
 		"keepalive",
-		"clientId" ],
+		"clientId"
+	],
 	"name" : "MQTTConnect",
-	"pools" : [
-		 ],
-	"super" : "MQTTPacket",
-	"type" : "normal" }
+	"type" : "normal"
+}

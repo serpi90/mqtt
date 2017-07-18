@@ -1,12 +1,15 @@
 {
-	"class" : {
-		"isAbstract" : "SvenVanCaekenberghe 12/20/2016 16:54" },
 	"instance" : {
-		"host" : "SvenVanCaekenberghe 12/20/2016 16:17",
 		"keepalive" : "SvenVanCaekenberghe 12/20/2016 16:18",
-		"message" : "SvenVanCaekenberghe 12/20/2016 16:17",
-		"setUp" : "SvenVanCaekenberghe 12/20/2016 16:22",
+		"setUp" : "JurajKubelka 3/2/2017 08:06",
 		"tearDown" : "SvenVanCaekenberghe 12/20/2016 16:16",
+		"message" : "SvenVanCaekenberghe 12/20/2016 16:17",
+		"host" : "SvenVanCaekenberghe 12/20/2016 16:17",
 		"testOne" : "SvenVanCaekenberghe 12/20/2016 16:24",
 		"timeout" : "SvenVanCaekenberghe 12/20/2016 16:22",
-		"topic" : "SvenVanCaekenberghe 12/20/2016 16:17" } }
+		"topic" : "SvenVanCaekenberghe 12/20/2016 16:17"
+	},
+	"class" : {
+		"isAbstract" : "SvenVanCaekenberghe 12/20/2016 16:54"
+	}
+}

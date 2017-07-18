@@ -1,5 +1,8 @@
 {
-	"class" : {
-		"isAbstract" : "SvenVanCaekenberghe 12/20/2016 14:04" },
 	"instance" : {
-		"host" : "SvenVanCaekenberghe 12/20/2016 14:05" } }
+		"host" : "SvenVanCaekenberghe 12/20/2016 14:05"
+	},
+	"class" : {
+		"isAbstract" : "SvenVanCaekenberghe 12/20/2016 14:04"
+	}
+}

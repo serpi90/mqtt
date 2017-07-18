@@ -1,15 +1,14 @@
 {
-	"category" : "MQTT-Client",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SvenVanCaekenberghe 12/22/2016 21:24",
+	"super" : "MQTTPrimitiveClient",
+	"category" : "MQTT-Client",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"inbox",
-		"lastActivity" ],
+		"lastActivity"
+	],
 	"name" : "MQTTExperimentalClient",
-	"pools" : [
-		 ],
-	"super" : "MQTTPrimitiveClient",
-	"type" : "normal" }
+	"type" : "normal"
+}

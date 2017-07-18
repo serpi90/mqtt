@@ -1,6 +1,6 @@
 public
 unsubscribeFromTopic: topicFilter
-	"Unsubscribe frin topicFilter.
+	"Unsubscribe from topicFilter.
 	The server/broker will no longer send us messages matching topicFilter."
 
 	| unsubscribe expectedResponse |

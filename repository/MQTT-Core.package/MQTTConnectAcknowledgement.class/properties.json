@@ -1,15 +1,14 @@
 {
-	"category" : "MQTT-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SvenVanCaekenberghe 12/5/2016 11:54",
+	"super" : "MQTTPacket",
+	"category" : "MQTT-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"sessionPresent",
-		"returnCode" ],
+		"returnCode"
+	],
 	"name" : "MQTTConnectAcknowledgement",
-	"pools" : [
-		 ],
-	"super" : "MQTTPacket",
-	"type" : "normal" }
+	"type" : "normal"
+}

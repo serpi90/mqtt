@@ -1,10 +1,10 @@
 {
-	"category" : "MQTT-Client",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SvenVanCaekenberghe 12/6/2016 11:21",
+	"super" : "Object",
+	"category" : "MQTT-Client",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"clientId",
 		"host",
@@ -16,9 +16,8 @@
 		"qualityOfService",
 		"connection",
 		"subscriptions",
-		"idCounter" ],
+		"idCounter"
+	],
 	"name" : "MQTTAbstractClient",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

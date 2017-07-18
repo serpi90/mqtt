@@ -1,18 +1,17 @@
 {
-	"category" : "MQTT-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "SvenVanCaekenberghe 12/5/2016 15:53",
+	"super" : "MQTTIdPacket",
+	"category" : "MQTT-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"duplicate",
 		"qualityOfService",
 		"retain",
 		"topic",
-		"message" ],
+		"message"
+	],
 	"name" : "MQTTPublish",
-	"pools" : [
-		 ],
-	"super" : "MQTTIdPacket",
-	"type" : "normal" }
+	"type" : "normal"
+}
