@@ -20,6 +20,14 @@ Basically, the code works but needs polishing and maturing. Also, it might be us
 
 Right now, documentation is limited, but there are class comments and the most important public API methods are commented too. There is no Metacello configuration yet, just load the 3 packages.
 
+## Load
+```smalltalk
+Metacello new
+  baseline: 'MQTT';
+  repository: 'github://serpi90:master/mqtt/repository';
+  load
+```
+
 ## References/Links
 
 - [http://mqtt.org](http://mqtt.org)
