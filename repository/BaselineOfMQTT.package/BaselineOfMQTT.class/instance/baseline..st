@@ -9,6 +9,7 @@ baseline: spec
 				package: 'MQTT-Core';
 				package: 'MQTT-Tests' with: [ spec requires: #('MQTT-Core' 'MQTT-Client') ].
 			spec
-				group: 'runtime' with: [ spec requires: #('MQTT-Core' 'MQTT-Client') ];
-				group: 'development' with: [ spec requires: #('MQTT-Tests') ];
-				group: 'default' with: #('runtime') ]
+				group: 'Deployment' with: [ spec requires: #('MQTT-Core' 'MQTT-Client') ];
+				group: 'Tests' with: [ spec requires: #('MQTT-Tests') ];
+				group: 'Development' with: [ spec requires: #('Deployment' 'Tests') ];
+				group: 'default' with: #('Deployment') ]
