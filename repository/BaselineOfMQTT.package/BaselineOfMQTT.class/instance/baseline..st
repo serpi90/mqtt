@@ -11,5 +11,5 @@ baseline: spec
 			spec
 				group: 'Deployment' with: #('MQTT-Core' 'MQTT-Client');
 				group: 'Tests' with: #('MQTT-Tests');
-				group: 'Development' #('Deployment' 'Tests');
+				group: 'Development' with: #('Deployment' 'Tests');
 				group: 'default' with: #('Deployment') ]
